@@ -22,7 +22,7 @@ public class Usuario {
 	private Long id;
 	
 	@NotNull
-	private String Nome;
+	private String nome;
 	
 	@NotNull
 	private String email;
@@ -45,11 +45,11 @@ public class Usuario {
 	}
 
 	public String getNome() {
-		return Nome;
+		return nome;
 	}
 
 	public void setNome(String nome) {
-		Nome = nome;
+		this.nome = nome;
 	}
 
 	public String getEmail() {
